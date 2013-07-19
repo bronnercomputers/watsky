@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3860B9E171A1CDA0011D409 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C3860B9D171A1CDA0011D409 /* 57x57.png */; };
+		C3860BA1171A1CE10011D409 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = C3860BA0171A1CE10011D409 /* 114x114.png */; };
+		C395799E1718DD960027DE7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C395799D1718DD960027DE7B /* UIKit.framework */; };
+		C39579A01718DD960027DE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C395799F1718DD960027DE7B /* Foundation.framework */; };
+		C39579A21718DD960027DE7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39579A11718DD960027DE7B /* CoreGraphics.framework */; };
+		C39579A81718DD960027DE7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39579A61718DD960027DE7B /* InfoPlist.strings */; };
+		C39579AA1718DD960027DE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39579A91718DD960027DE7B /* main.m */; };
+		C39579AE1718DD960027DE7B /* WSKYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39579AD1718DD960027DE7B /* WSKYAppDelegate.m */; };
+		C39579B11718DD960027DE7B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39579AF1718DD960027DE7B /* MainStoryboard.storyboard */; };
+		C39579B41718DD960027DE7B /* WSKYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39579B31718DD960027DE7B /* WSKYViewController.m */; };
+		C39579BC1718DD960027DE7B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39579BB1718DD960027DE7B /* SenTestingKit.framework */; };
+		C39579BD1718DD960027DE7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C395799D1718DD960027DE7B /* UIKit.framework */; };
+		C39579BE1718DD960027DE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C395799F1718DD960027DE7B /* Foundation.framework */; };
+		C39579C61718DD960027DE7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39579C41718DD960027DE7B /* InfoPlist.strings */; };
+		C39579C91718DD960027DE7B /* WatskyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39579C81718DD960027DE7B /* WatskyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39579BF1718DD960027DE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39579901718DD950027DE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39579981718DD960027DE7B;
+			remoteInfo = Watsky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3860B9D171A1CDA0011D409 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		C3860BA0171A1CE10011D409 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		C39579991718DD960027DE7B /* Watsky!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watsky!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C395799D1718DD960027DE7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C395799F1718DD960027DE7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C39579A11718DD960027DE7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C39579A51718DD960027DE7B /* Watsky!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watsky!-Info.plist"; sourceTree = "<group>"; };
+		C39579A71718DD960027DE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C39579A91718DD960027DE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39579AB1718DD960027DE7B /* Watsky!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watsky!-Prefix.pch"; sourceTree = "<group>"; };
+		C39579AC1718DD960027DE7B /* WSKYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSKYAppDelegate.h; sourceTree = "<group>"; };
+		C39579AD1718DD960027DE7B /* WSKYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSKYAppDelegate.m; sourceTree = "<group>"; };
+		C39579B01718DD960027DE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C39579B21718DD960027DE7B /* WSKYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSKYViewController.h; sourceTree = "<group>"; };
+		C39579B31718DD960027DE7B /* WSKYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSKYViewController.m; sourceTree = "<group>"; };
+		C39579BA1718DD960027DE7B /* Watsky!Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watsky!Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39579BB1718DD960027DE7B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C39579C31718DD960027DE7B /* Watsky!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watsky!Tests-Info.plist"; sourceTree = "<group>"; };
+		C39579C51718DD960027DE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C39579C71718DD960027DE7B /* WatskyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatskyTests.h; sourceTree = "<group>"; };
+		C39579C81718DD960027DE7B /* WatskyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatskyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39579961718DD960027DE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C395799E1718DD960027DE7B /* UIKit.framework in Frameworks */,
+				C39579A01718DD960027DE7B /* Foundation.framework in Frameworks */,
+				C39579A21718DD960027DE7B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39579B61718DD960027DE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39579BC1718DD960027DE7B /* SenTestingKit.framework in Frameworks */,
+				C39579BD1718DD960027DE7B /* UIKit.framework in Frameworks */,
+				C39579BE1718DD960027DE7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C395798E1718DD950027DE7B = {
+			isa = PBXGroup;
+			children = (
+				C3860BA0171A1CE10011D409 /* 114x114.png */,
+				C3860B9D171A1CDA0011D409 /* 57x57.png */,
+				C39579A31718DD960027DE7B /* Watsky */,
+				C39579C11718DD960027DE7B /* WatskyTests */,
+				C395799C1718DD960027DE7B /* Frameworks */,
+				C395799A1718DD960027DE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C395799A1718DD960027DE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39579991718DD960027DE7B /* Watsky!.app */,
+				C39579BA1718DD960027DE7B /* Watsky!Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C395799C1718DD960027DE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C395799D1718DD960027DE7B /* UIKit.framework */,
+				C395799F1718DD960027DE7B /* Foundation.framework */,
+				C39579A11718DD960027DE7B /* CoreGraphics.framework */,
+				C39579BB1718DD960027DE7B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C39579A31718DD960027DE7B /* Watsky */ = {
+			isa = PBXGroup;
+			children = (
+				C39579AC1718DD960027DE7B /* WSKYAppDelegate.h */,
+				C39579AD1718DD960027DE7B /* WSKYAppDelegate.m */,
+				C39579AF1718DD960027DE7B /* MainStoryboard.storyboard */,
+				C39579B21718DD960027DE7B /* WSKYViewController.h */,
+				C39579B31718DD960027DE7B /* WSKYViewController.m */,
+				C39579A41718DD960027DE7B /* Supporting Files */,
+			);
+			path = Watsky;
+			sourceTree = "<group>";
+		};
+		C39579A41718DD960027DE7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39579A51718DD960027DE7B /* Watsky!-Info.plist */,
+				C39579A61718DD960027DE7B /* InfoPlist.strings */,
+				C39579A91718DD960027DE7B /* main.m */,
+				C39579AB1718DD960027DE7B /* Watsky!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39579C11718DD960027DE7B /* WatskyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39579C71718DD960027DE7B /* WatskyTests.h */,
+				C39579C81718DD960027DE7B /* WatskyTests.m */,
+				C39579C21718DD960027DE7B /* Supporting Files */,
+			);
+			path = WatskyTests;
+			sourceTree = "<group>";
+		};
+		C39579C21718DD960027DE7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39579C31718DD960027DE7B /* Watsky!Tests-Info.plist */,
+				C39579C41718DD960027DE7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39579981718DD960027DE7B /* Watsky! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39579CC1718DD960027DE7B /* Build configuration list for PBXNativeTarget "Watsky!" */;
+			buildPhases = (
+				C39579951718DD960027DE7B /* Sources */,
+				C39579961718DD960027DE7B /* Frameworks */,
+				C39579971718DD960027DE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watsky!";
+			productName = Watsky;
+			productReference = C39579991718DD960027DE7B /* Watsky!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39579B91718DD960027DE7B /* Watsky!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39579CF1718DD960027DE7B /* Build configuration list for PBXNativeTarget "Watsky!Tests" */;
+			buildPhases = (
+				C39579B51718DD960027DE7B /* Sources */,
+				C39579B61718DD960027DE7B /* Frameworks */,
+				C39579B71718DD960027DE7B /* Resources */,
+				C39579B81718DD960027DE7B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39579C01718DD960027DE7B /* PBXTargetDependency */,
+			);
+			name = "Watsky!Tests";
+			productName = WatskyTests;
+			productReference = C39579BA1718DD960027DE7B /* Watsky!Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39579901718DD950027DE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C39579931718DD950027DE7B /* Build configuration list for PBXProject "Watsky!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C395798E1718DD950027DE7B;
+			productRefGroup = C395799A1718DD960027DE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39579981718DD960027DE7B /* Watsky! */,
+				C39579B91718DD960027DE7B /* Watsky!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39579971718DD960027DE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39579A81718DD960027DE7B /* InfoPlist.strings in Resources */,
+				C39579B11718DD960027DE7B /* MainStoryboard.storyboard in Resources */,
+				C3860B9E171A1CDA0011D409 /* 57x57.png in Resources */,
+				C3860BA1171A1CE10011D409 /* 114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39579B71718DD960027DE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39579C61718DD960027DE7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C39579B81718DD960027DE7B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39579951718DD960027DE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39579AA1718DD960027DE7B /* main.m in Sources */,
+				C39579AE1718DD960027DE7B /* WSKYAppDelegate.m in Sources */,
+				C39579B41718DD960027DE7B /* WSKYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39579B51718DD960027DE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39579C91718DD960027DE7B /* WatskyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39579C01718DD960027DE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39579981718DD960027DE7B /* Watsky! */;
+			targetProxy = C39579BF1718DD960027DE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39579A61718DD960027DE7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39579A71718DD960027DE7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C39579AF1718DD960027DE7B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39579B01718DD960027DE7B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C39579C41718DD960027DE7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39579C51718DD960027DE7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39579CA1718DD960027DE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C39579CB1718DD960027DE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39579CD1718DD960027DE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watsky/Watsky!-Prefix.pch";
+				INFOPLIST_FILE = "Watsky/Watsky!-Info.plist";
+				PRODUCT_NAME = "Watsky!";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C39579CE1718DD960027DE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watsky/Watsky!-Prefix.pch";
+				INFOPLIST_FILE = "Watsky/Watsky!-Info.plist";
+				PRODUCT_NAME = "Watsky!";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C39579D01718DD960027DE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watsky.app/Watsky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watsky/Watsky-Prefix.pch";
+				INFOPLIST_FILE = "WatskyTests/Watsky!Tests-Info.plist";
+				PRODUCT_NAME = "Watsky!Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C39579D11718DD960027DE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watsky.app/Watsky";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watsky/Watsky-Prefix.pch";
+				INFOPLIST_FILE = "WatskyTests/Watsky!Tests-Info.plist";
+				PRODUCT_NAME = "Watsky!Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39579931718DD950027DE7B /* Build configuration list for PBXProject "Watsky!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39579CA1718DD960027DE7B /* Debug */,
+				C39579CB1718DD960027DE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39579CC1718DD960027DE7B /* Build configuration list for PBXNativeTarget "Watsky!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39579CD1718DD960027DE7B /* Debug */,
+				C39579CE1718DD960027DE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39579CF1718DD960027DE7B /* Build configuration list for PBXNativeTarget "Watsky!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39579D01718DD960027DE7B /* Debug */,
+				C39579D11718DD960027DE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39579901718DD950027DE7B /* Project object */;
+}
